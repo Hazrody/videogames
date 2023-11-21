@@ -7,7 +7,7 @@ Base de données en postgresql. Des scripts sont disponible pour les tests dans 
 Dans le fichier `application.properties`, il faut changer les informations de connexions pour mettre les votres avant le
 build du dockerfile.
 
-Faire un `maven clean install` pour toutes les dépendences.
+
 Lancer le projet via le fichier `VideogamesApplication.java`
 
 URL pour tester les query: http://localhost:8080/graphiql
