@@ -20,6 +20,9 @@ Sur docker desktop, sur le container postgres une fois créer dans la categorie 
 * Ajouter les tables et les jeux d'essai
 
 
-Lancer le projet via le fichier `VideogamesApplication.java`
+Build le dockerfile:
+* Dans le projet:
+    * ``docker build -t NOMAUCHOIX:tag .``
+    * ``docker run -p 8080:8080 -d NOMAUCHOIX:tag``
 
 URL pour tester les query: http://localhost:8080/graphiql
